@@ -1,5 +1,5 @@
 .page {
-  width: 21cm;
+  width: 21.0cm;
   min-height: 29.7cm;
   background-color : white; 
   z-index : -1;
@@ -198,4 +198,21 @@ td.rightRightInfo {
     display : inline;
     font-family : 'OAGothic-ExtraBold';
     white-space: nowrap;
+}
+
+#topdfButton {
+    position : fixed;
+    bottom : 5% ;
+    right : 5%;
+    text-align : center;
+    color : white;
+    background-color : #001ED6;
+    border : 2px solid white;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    padding-left : 40px;
+    padding-right : 40px;
+    border-radius : 100px;
+    font-size : 32px;
+    box-shadow : 2px 4px 4px 0px #999999;
 }
