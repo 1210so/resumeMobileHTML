@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12쉽소 이력서 출력</title>
+    <link rel="stylesheet" href="12style.css">
+</head>
+<body>
+    <button id="topdfButton" onclick="downloadPDF()" data-html2canvas-ignore="true">PDF로 다운로드</button>
+    <div class="top">
+        <p class="logo">12쉽소</p>
+        <table class="topTable">
+            <tr>
+                <td class="leftColumn">
+                    <p class="topHighlightText" style="font-size:20px">언제나 웃는 얼굴로!</p>
+                    <p class="topHighlightText" style="font-size:72px">김정자</p>
+                </td>
+                <td class="rightColumn"><img src="SampleImage.jpeg" style="width:120px; height:160px"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">인적사항</span><div class="infoLine"></div></div><br>
+        <table class="infoTable">
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">생년월일</p></div></td>
+                <td class="infoRight"><p class="infoText">1960-05-01</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">주소</p></div></td>
+                <td class="infoRight"><p class="infoText">서울특별시 양천구 목동</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">연락처</p></div></td>
+                <td class="infoRight"><p class="infoText">010-1234-5678</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">이메일</p></div></td>
+                <td class="infoRight"><p class="infoText">jeongja@example.com</p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">저, 김정자은</span><div class="infoLine"></div></div><br>
+        <table class="infoTable">
+            <tr class="infoCenter">
+                <td><div class="roundBox"><p class="infoText">밝은 사람</p></div></td>
+            </tr>
+            <tr class="infoCenter">
+                <td><div class="roundBox"><p class="infoText">자신감 있는 사람</p></div></td>
+            </tr>
+            <tr class="infoCenter">
+                <td><div class="roundBox"><p class="infoText">적극적인 사람</p></div></td>
+            </tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">최종학력사항</span><div class="infoLine"></div></div><br>
+        <table class="infoTable">
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">학교명</p></div></td>
+                <td class="infoRight"><p class="infoText">한국대학교</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">전공</p></div></td>
+                <td class="infoRight"><p class="infoText">조리과</p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">자격증</span><div class="infoLine"></div></div><br>
+        <table class="infoTable">
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">자격증명</p></div></td>
+                <td class="infoRight"><p class="infoText">한식조리기능사</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">취득일</p></div></td>
+                <td class="infoRight"><p class="infoText">1996년 3월</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">발급기관</p></div></td>
+                <td class="infoRight"><p class="infoText">한국산업인력공단</p></td>
+            </tr>
+            <tr><td colspan="2"><div class="infoLineSub"></div><br></td></tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">자격증명</p></div></td>
+                <td class="infoRight"><p class="infoText">2종보통면허</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">취득일</p></div></td>
+                <td class="infoRight"><p class="infoText">2010년 5월</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">발급기관</p></div></td>
+                <td class="infoRight"><p class="infoText">도로교통공단</p></td>
+            </tr>
+            <tr><td colspan="2"><div class="infoLineSub"></div><br></td></tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">경력사항</span><div class="infoLine"></div></div><br>
+        <p class="career"><span class="roundBoxinText">와라백반집</span>에서 <span class="roundBoxinText">1997년 ~ 2022년</span>동안 <span class="roundBoxinText">백반집 운영</span> 업무를 맡았어요.</p><br>
+        <div class="infoLineSub"></div><br>
+        <p class="career"><span class="roundBoxinText">가나식품</span>에서 <span class="roundBoxinText">2022년 ~ 2023년</span>동안 <span class="roundBoxinText">식품가공 생산직</span> 업무를 맡았어요.</p><br>
+        <div class="infoLineSub"></div><br>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">훈련/교육</span><div class="infoLine"></div></div><br>
+        <table class="infoTable">
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">훈련/교육명</p></div></td>
+                <td class="infoRight"><p class="infoText">바리스타 훈련</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">훈련기간</p></div></td>
+                <td class="infoRight"><p class="infoText">2023년 1월</p></td>
+            </tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">시행기관</p></div></td>
+                <td class="infoRight"><p class="infoText">서울시어르신취업센터</p></td>
+            </tr>
+            <tr><td colspan="2"><div class="infoLineSub"></div><br></td></tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">훈련/교육명</p></div></td>
+                <td class="infoRight"><p class="infoText">가사도우미 훈련</p></td>
+            </tr>
+            <tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">훈련기간</p></div></td>
+                <td class="infoRight"><p class="infoText">2023년 3월</p></td>
+            </tr>
+                <td class="infoLeft"><div class="roundBox"><p class="infoText">시행기관</p></div></td>
+                <td class="infoRight"><p class="infoText">서울시어르신취업센터</p></td>
+            </tr>
+            <tr><td colspan="2"><div class="infoLineSub"></div><br></td></tr>
+        </table>
+    </div>
+    <div class="infoBox">
+        <div class="infoTitleContainer"><span class="infoTitle">자기소개</span><div class="infoLine"></div></div><br>
+        <p class="paragraph">저는 항상 책임감을 가지고 살아온 사람입니다. 오랜 시간 동안 다양한 직무를 맡아 왔으며, 맡은 바 책임을 다해 완수해 왔습니다. 또한, 밝고 자신감 있는 성격으로 모든 상황에 적극적으로 대처하며, 다양한 사람들과 원활하게 소통하고 협업을 통해 좋은 결과를 만들어냈습니다. 이러한 경험을 바탕으로 앞으로도 맡은 바 역할을 충실히 수행하며 조직에 기여할 것입니다.</p>
+    </div>
+    <div class="infoBox"><div class="infoLine"></div></div>
+    <div class="infoBox" style="text-align:center;">
+        <p class="sloganEnd">1,2,3처럼 쉬운 이력서 생성 도우미,</p>&nbsp;<p class="logoEnd">12쉽소</p>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+<script>
+    function downloadPDF() {
+        const pages = document.querySelectorAll('.page');
+        const doc = new jspdf.jsPDF('p', 'mm', 'a4');
+        let promises = [];
+        pages.forEach((page, index) => {
+            promises.push(
+                html2canvas(page, {
+                    scale: 3,
+                    useCORS: true
+                }).then((canvas) => {
+                    const imgData = canvas.toDataURL('image/png');
+                    const imgWidth = 210;
+                    const pageHeight = 297;
+                    const imgHeight = canvas.height * imgWidth / canvas.width;
+                    if (index > 0) {
+                        doc.addPage();
+                    }
+                    doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+                })
+            );
+        });
+        Promise.all(promises).then(() => {
+            doc.save('sample.pdf');
+        });
+    }
+</script>
+</html>
