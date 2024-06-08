@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>12쉽소 이력서 출력 A4</title>
+    <link rel="stylesheet" href="12style_A4.css">
+</head>
+<body>
+    <button id="topdfButton" onclick="downloadPDF()" data-html2canvas-ignore="true">PDF로 다운로드</button>
+    <section class="page">
+        <div id="topBackground"><p id="logo">12쉽소</p></div>
+        <table class="topTable">
+            <tr>
+                <td class="leftColumn">
+                    <div style="width:120px; height:160px; background-color:black;"> . </div>
+                </td>
+                <td class="centerColumn">
+                    <div class="topHighlightTextSmall">언제나 웃는 얼굴로!</div>
+                    <div class="topHighlightTextLarge">김정자</div>
+                </td>
+                <td class="rightColumn">
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">성실한 사람 🤓</p></div>
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">노력하는 사람 💦</p></div>
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">인내심이 있는 사람 ✋</p></div>
+                </td>
+            </tr>
+        </table>
+        <div class="infoBox"><div class="infoLine" style="border-top: 4px solid #001ED6;"></div></div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">인적사항</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">이름</div>
+                                </td>
+                                <td class="rightRightInfo">김정자</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">주소</div>
+                                </td>
+                                <td class="rightRightInfo">경기 의정부시 호국로1111번길 6 1111</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">연락처</div>
+                                </td>
+                                <td class="rightRightInfo">111-1111-1111</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">이메일</div>
+                                </td>
+                                <td class="rightRightInfo">1111@111111</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">최종<br>학력사항</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">학교명</div>
+                                </td>
+                                <td class="rightRightInfo">11111</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">전공</div>
+                                </td>
+                                <td class="rightRightInfo">1111</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">졸업연도</div>
+                                </td>
+                                <td class="rightRightInfo">2006년</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">자격증</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">자격증명</div>
+                                </td>
+                                <td class="rightRightInfo">111</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">취득일</div>
+                                </td>
+                                <td class="rightRightInfo">2019년 6월 8일</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">발급기관</div>
+                                </td>
+                                <td class="rightRightInfo">1111</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">자격증명</div>
+                                </td>
+                                <td class="rightRightInfo">2222</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">취득일</div>
+                                </td>
+                                <td class="rightRightInfo">2021년 6월 8일</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">발급기관</div>
+                                </td>
+                                <td class="rightRightInfo">2222</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="page">
+        <div id="topBackground2p"><p id="logo">12쉽소</p></div>
+        <br><br><br><br>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">경력사항</td>
+                    <td class="rightInfoSide">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="career"><span class="roundBoxinText">와라백반집</span> <span class="roundBoxinText">1982년 1월 ~ 2021년 1월</span>동안 <span class="roundBoxinText">식당 운영</span> 업무를 맡았어요.</p>
+                                </td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                            <tr>
+                                <td>
+                                    <p class="career"><span class="roundBoxinText">주성식품</span> <span class="roundBoxinText">2012년 5월 ~ 2018년 1월</span>동안 <span class="roundBoxinText">1111</span> 업무를 맡았어요.</p>
+                                </td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">훈련/교육</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">훈련/교육명</div>
+                                </td>
+                                <td class="rightRightInfo">2222</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">훈련기간</div>
+                                </td>
+                                <td class="rightRightInfo">1970년 1월 ~ 1978년 1월</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">시행기관</div>
+                                </td>
+                                <td class="rightRightInfo">2222</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">자기소개</td>
+                    <td class="rightInfoSide">
+                        <p class="paragraph">안녕하십니까, 저는 끊임없이 노력하고, 성실하게 일하며, 힘든 상황에서도 인내심을 유지하는 사람입니다. 
+
+저의 성실함은 과거 식당 운영 업무에서 가장 잘 드러났습니다. 저는 1982년부터 지난 2021년까지, 총 39년 간 일관된 장소에서 업무를 수행하며 고객 서비스의 품질을 유지하고 향상시키기 위해 끊임없이 노력했습니다. 이 과정에서 저는 고객의 입장에서 생각하고, 그들이 원하는 서비스를 제공하기 위해 다양한 방법을 고민하고 실천하였습니다.
+
+또한, 저의 노력은 고객 만족도 향상을 위한 다양한 노력을 통해 확인할 수 있습니다. 이를 위해 저는 새로운 메뉴 개발, 식당 분위기 개선, 직원 교육 등 다양한 방면에서 노력하였습니다.
+
+인내심 또한 저의 중요한 특성 중 하나입니다. 2012년부터 2018년까지 제품 개발팀에서 일하며, 제품 개선 과정에서 생기는 다양한 문제들을 해결하기 위해 인내심을 가지고 끊임없이 노력하였습니다. 이 경험을 바탕으로, 저는 어떠한 어려움 속에서도 포기하지 않고 문제를 해결하는 능력을 키웠습니다. 
+
+이러한 성실함, 노력, 인내심은 저를 더욱 성장시키고, 더 나은 서비스를 제공할 수 있는 능력을 갖추게 하였습니다. 고객에게 가치를 제공하는 일에 전념하고 싶습니다. 감사합니다.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+<script>
+    function downloadPDF() {
+        const pages = document.querySelectorAll('.page');
+        const doc = new jspdf.jsPDF('p', 'mm', 'a4');
+        let promises = [];
+        pages.forEach((page, index) => {
+            promises.push(
+                html2canvas(page, {
+                    scale: 1,
+                    useCORS: true
+                }).then((canvas) => {
+                    const imgData = canvas.toDataURL('SampleImage.jpeg');
+                    const imgWidth = 210;
+                    const pageHeight = 297;
+                    const imgHeight = canvas.height * imgWidth / canvas.width;
+                    if (index > 0) {
+                        doc.addPage();
+                    }
+                    doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+                })
+            );
+        });
+        Promise.all(promises).then(() => {
+            doc.save('sample.pdf');
+        });
+    }
+</script>
+</html>
