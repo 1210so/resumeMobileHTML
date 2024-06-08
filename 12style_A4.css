@@ -233,7 +233,6 @@ td.rightRightInfo {
 }
 
 #signature {
-    font-family: 'OAGothic-ExtraBold';
     position: absolute;
     bottom: 40px;
     text-align: center;
@@ -241,4 +240,8 @@ td.rightRightInfo {
     margin: 0px;
     font-size: 18px;
     width: 100%;
+}
+
+#eb {
+    font-family: 'OAGothic-ExtraBold';
 }
