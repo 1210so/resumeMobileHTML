@@ -231,3 +231,11 @@ td.rightRightInfo {
     box-shadow: 2px 4px 4px 0px #999999;
     z-index: 1000;
 }
+
+#signature {
+    position : absolute;
+    bottom : 32px;
+    left : 50%
+    color : #001ED6;
+    margin : 0px;
+    font-size : 24px;
