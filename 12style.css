@@ -191,7 +191,7 @@
     	    border-radius: 30px;
     	    border: 1.5px solid #999999;
     	    padding: 8px 20px;
-    	    margin: 4px 0; /* 상하 여백 조정 */
+    	    margin: 4px 4px; /* 상하 여백 조정 */
     	    text-align: center;
     	    display: inline-block;
     	    font-family: 'OAGothic-ExtraBold';
