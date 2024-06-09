@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>12쉽소 이력서 출력 A4</title>
+    <link rel="stylesheet" href="12style_A4.css">
+</head>
+<body>
+    <button id="topdfButton" onclick="downloadPDF()" data-html2canvas-ignore="true">PDF로 다운로드</button>
+    <section class="page">
+        <div id="topBackground"><p id="logo">12쉽소</p></div>
+        <table class="topTable">
+            <tr>
+                <td class="leftColumn">
+                    <img src="SampleImage.jpeg" style="width:120px; height:160px;">
+                </td>
+                <td class="centerColumn">
+                    <div class="topHighlightTextSmall">언제나 웃는 얼굴로!</div>
+                    <div class="topHighlightTextLarge">김정자</div>
+                </td>
+                <td class="rightColumn">
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">책임감이 있는 사람 💪</p></div>
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">열정적인 사람 ❤️‍🔥</p></div>
+                    <div class="roundBoxinRow" style="margin-bottom : 8px;"><p class="infoText">성실한 사람 🤓</p></div>
+                </td>
+            </tr>
+        </table>
+        <div class="infoBox"><div class="infoLine" style="border-top: 4px solid #001ED6;"></div></div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">인적사항</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">이름</div>
+                                </td>
+                                <td class="rightRightInfo">김정자</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">주소</div>
+                                </td>
+                                <td class="rightRightInfo">서울특별시 양천구 목동</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">연락처</div>
+                                </td>
+                                <td class="rightRightInfo">010-1234-5678</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">이메일</div>
+                                </td>
+                                <td class="rightRightInfo">jeongja@example.com</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">최종<br>학력사항</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">학교명</div>
+                                </td>
+                                <td class="rightRightInfo">한국대학교</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">전공</div>
+                                </td>
+                                <td class="rightRightInfo">조리과</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">자격증</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">자격증명</div>
+                                </td>
+                                <td class="rightRightInfo">한식조리기능사</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">취득일</div>
+                                </td>
+                                <td class="rightRightInfo">1996년 3월 18일</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">발급기관</div>
+                                </td>
+                                <td class="rightRightInfo">한국산업인력공단</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">자격증명</div>
+                                </td>
+                                <td class="rightRightInfo">2종보통면허</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">취득일</div>
+                                </td>
+                                <td class="rightRightInfo">2010년 5월 10일</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">발급기관</div>
+                                </td>
+                                <td class="rightRightInfo">도로교통공단</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="page">
+        <div id="topBackground2p"><p id="logo">12쉽소</p></div>
+        <br><br><br><br>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">경력사항</td>
+                    <td class="rightInfoSide">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="career"><span class="roundBoxinText">와라백반집</span> <span class="roundBoxinText">1997년 ~ 2022년</span>동안 <span class="roundBoxinText">백반집 운영, 조리, 매장 관리</span> 업무를 맡았어요.</p>
+                                </td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                            <tr>
+                                <td>
+                                    <p class="career"><span class="roundBoxinText">가나식품</span> <span class="roundBoxinText">2022년 ~ 2023년</span>동안 <span class="roundBoxinText">식품가공 생산직</span> 업무를 맡았어요.</p>
+                                </td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">훈련/교육</td>
+                    <td class="rightInfoSide">
+                        <table class="infoTable">
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">훈련/교육명</div>
+                                </td>
+                                <td class="rightRightInfo">바리스타 훈련</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">훈련기간</div>
+                                </td>
+                                <td class="rightRightInfo">2023년 1월 ~ 2023년 3월</td>
+                            </tr>
+                            <tr>
+                                <td class="rightLeftInfo">
+                                    <div class="roundBox">시행기관</div>
+                                </td>
+                                <td class="rightRightInfo">서울시어르신취업센터</td>
+                            </tr>
+                            <tr><td style="padding-top:5px; padding-bottom:5px;" colspan="2"><div class="infoLineSub"></div></td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <table class="infoTable">
+                <tr>
+                    <td class="leftInfoSide">자기소개</td>
+                    <td class="rightInfoSide">
+                        <p class="paragraph">안녕하십니까. 저는 책임감, 열정, 성실함이 가장 큰 장점인 사람입니다. 25년간 식당을 운영하며, 저의 책임감은 손님들에게 최고의 서비스를 제공하기 위한 원동력이었습니다. 식품가공 생산직에서의 근무를 통해, 열정적인 자세로 업무에 임하면서 표준을 넘어선 품질을 지속적으로 유지했습니다. 이 경험을 바탕으로 성실하게 업무에 임하며, 일의 완성도를 높이는데 기여했습니다. 또한 어떤 상황에서도 변치 않는 책임감과 성실함으로 일관성을 유지하며 업무를 수행했습니다. 이런 강점들을 바탕으로, 어떤 직무에서든 최선을 다해 업무를 수행할 자신이 있습니다. 감사합니다.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p id="signature"> 상기 내용이 <span id="eb">사실임을 확인</span>합니다.&nbsp &nbsp &nbsp 김정자 &nbsp &nbsp (서명) </p>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+<script>
+    function downloadPDF() {
+        const pages = document.querySelectorAll('.page');
+        const doc = new jspdf.jsPDF('p', 'mm', 'a4');
+        let promises = [];
+        pages.forEach((page, index) => {
+            promises.push(
+                html2canvas(page, {
+                    scale: 1,
+                    useCORS: true
+                }).then((canvas) => {
+                    const imgData = canvas.toDataURL('SampleImage.jpeg');
+                    const imgWidth = 210;
+                    const pageHeight = 297;
+                    const imgHeight = canvas.height * imgWidth / canvas.width;
+                    if (index > 0) {
+                        doc.addPage();
+                    }
+                    doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+                })
+            );
+        });
+        Promise.all(promises).then(() => {
+            doc.save('resume.pdf');
+        });
+    }
+</script>
+</html>
