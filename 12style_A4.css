@@ -134,6 +134,7 @@ td.rightColumn {
     display: inline-block;
     text-align: center;
     background-color: white;
+    white-space: nowrap;
 }
 
 .infoLine {
