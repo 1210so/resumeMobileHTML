@@ -183,7 +183,8 @@
             text-align: center;
             display : inline;
             font-family : 'OAGothic-ExtraBold';
-            white-space: nowrap;
+            white-space: normal; 
+	    word-break: break-all; 
         }
 
 	.careerContainer {
