@@ -196,7 +196,7 @@
 
 	.career {
             font-size: 20px;
-	    line-height: 28px; /* 줄 간격 조정 */
+	    line-height: 52px;
 	    word-break: break-word; /* 단어가 넘칠 때 줄 바꿈 처리 */
 	}
 
