@@ -186,6 +186,20 @@
             white-space: nowrap;
         }
 
+	.careerContainer {
+   	    display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+	}
+
+	.career {
+	    flex-grow: 1;
+            font-size: 20px;
+            line-height: 52px;
+	}
+	
+		
+
 
 
 
